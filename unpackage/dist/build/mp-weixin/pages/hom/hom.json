@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "top-serch": "../serch/serch",
+    "hom-tab-bookshlef": "./bookshlef/bookshlef",
+    "hom-tab-recommend": "./recommend/recommend"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),t={__name:"short-story",setup(s){const r=e.ref("我是小故事页面");return(c,_)=>({a:e.t(r.value)})}},o=e._export_sfc(t,[["__scopeId","data-v-dec9cb5e"],["__file","C:/xgproject/chili-peppers-novel/pages/book-city/short-story/short-story.vue"]]);wx.createPage(o);

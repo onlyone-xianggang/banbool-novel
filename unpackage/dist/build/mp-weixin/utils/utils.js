@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js");exports.enterNovelDetails=function(e){console.log("详情页面还没有开发",e)},exports.getNodeMsg=function(o,t=0){return new Promise((n=>{e.index.createSelectorQuery().selectAll(o).boundingClientRect((e=>{n(e[t])})).exec()}))};

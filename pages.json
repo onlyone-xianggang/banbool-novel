@@ -1,0 +1,159 @@
+{   
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/hom/hom",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/foot-print/foot-print",
+			"style": {
+				"navigationBarTitleText": "我宠幸过的书"
+			}
+		},
+		{
+			"path": "pages/book-city/book-city",
+            "style" : {
+				"navigationStyle" : "custom"
+			}
+		},
+		{
+			"path": "pages/classifiction/classifiction",
+            "style" : {
+				"navigationBarTitleText": "精品分类"
+			}
+		},
+		{
+		    "path": "pages/my/activate-menber/activate-menber",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/expend-reord/expend-record",
+			"style": {
+			    "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/instantly-recharge/instantly-recharge",
+			"style": {
+			    "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+			    "navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/serch/serch",
+			"style": {
+				"navigationBarTitleText": "您想看的，这里都有"
+			}
+		},
+		{
+		    "path": "pages/charpter-list/charpter-list",
+			"style": {
+			    "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/serch/hand-movement-serch-list/hand-movement-serch-list"
+		},
+		{
+			"path": "pages/serch/serch-top-billbooard-and-distory-serch/serch-top-billboard-and-distory-serch"
+		},
+		{
+			"path": "pages/hom/bookshlef/bookshlef"
+		},
+		{
+			"path": "pages/hom/recommend/recommend"
+		},
+		{
+			"path": "pages/book-city/book-city-is/book-city-is"
+		},
+		{
+			"path": "pages/book-city/short-story/short-story"
+		},
+		{
+			"path": "pages/detailslist/detailslist",
+            "style" : {
+				// "navigationBarTitleText": "1111",
+                "navigationStyle" : "custom"
+			}
+		},
+		{
+		    "path": "pages/book-details/book-details",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path": "pages/read-book/read-book",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"lazyCodeLoading": "requiredComponents ",
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+		"tabBar": {
+			"selectedColor": "#000",
+			"list": [
+				{
+				  "pagePath": "pages/hom/hom",
+				  "text": "首页",
+				  "iconPath": "static/hom/hom.png",
+				  "selectedIconPath": "static/hom/hom1.png"
+				},
+				{
+				  "pagePath": "pages/foot-print/foot-print",
+				  "text": "足迹",
+				  "iconPath": "static/footprint/foot-parint.png",
+				  "selectedIconPath": "static/footprint/foot-parint1.png"
+				},
+				{
+				  "pagePath": "pages/book-city/book-city",
+				  "text": "书城",
+				  "iconPath": "static/book-city/bookshlef.png",
+				  "selectedIconPath": "static/book-city/bookshlef1.png"
+				},
+				{
+				  "pagePath": "pages/classifiction/classifiction",
+				  "text": "分类",
+				  "iconPath": "static/classifiction/class.png",
+				  "selectedIconPath": "static/classifiction/class1.png"
+				},
+				{
+				  "pagePath": "pages/my/my",
+				  "text": "我的",
+				  "iconPath": "static/my/me.png",
+				  "selectedIconPath": "static/my/me1.png"
+				}
+			]
+		},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "br-line": "../../../components/bar",
+    "commend-carousel": "../../../components/commend-carousel"
+  }
+}

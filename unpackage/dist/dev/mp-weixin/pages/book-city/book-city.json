@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "book-city-is": "./book-city-is/book-city-is"
+  }
+}

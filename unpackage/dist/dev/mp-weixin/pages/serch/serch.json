@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "您想看的，这里都有",
+  "usingComponents": {
+    "top-billboard-and-distory": "./serch-top-billbooard-and-distory-serch/serch-top-billboard-and-distory-serch",
+    "hand-movement-serch-list": "./hand-movement-serch-list/hand-movement-serch-list"
+  }
+}

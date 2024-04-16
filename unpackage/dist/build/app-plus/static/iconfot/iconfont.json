@@ -1,0 +1,79 @@
+{
+  "id": "4363459",
+  "name": "chili-peppers-novel",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "一个小说小程序+app",
+  "glyphs": [
+    {
+      "icon_id": "2076312",
+      "name": " 我的",
+      "font_class": "wode",
+      "unicode": "e8a0",
+      "unicode_decimal": 59552
+    },
+    {
+      "icon_id": "3456448",
+      "name": "足迹",
+      "font_class": "zuji",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "5360130",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "16746550",
+      "name": "便民_船员职业规划",
+      "font_class": "bianmin_chuanyuanzhiyeguihua",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "38471818",
+      "name": "我的",
+      "font_class": "wode-copy",
+      "unicode": "e8a1",
+      "unicode_decimal": 59553
+    },
+    {
+      "icon_id": "38471820",
+      "name": "足迹-copy",
+      "font_class": "zuji-copy",
+      "unicode": "e8a2",
+      "unicode_decimal": 59554
+    },
+    {
+      "icon_id": "38471821",
+      "name": "分类-copy",
+      "font_class": "fenlei-copy",
+      "unicode": "e8a3",
+      "unicode_decimal": 59555
+    },
+    {
+      "icon_id": "38471828",
+      "name": "分类-copy",
+      "font_class": "fenlei-copy1",
+      "unicode": "e8a4",
+      "unicode_decimal": 59556
+    },
+    {
+      "icon_id": "38471831",
+      "name": "便民_船员职业规划-copy",
+      "font_class": "bianmin_chuanyuanzhiyeguihua-copy",
+      "unicode": "e8a5",
+      "unicode_decimal": 59557
+    },
+    {
+      "icon_id": "38471835",
+      "name": "分类-copy-copy",
+      "font_class": "fenlei-copy-copy",
+      "unicode": "e8a6",
+      "unicode_decimal": 59558
+    }
+  ]
+}

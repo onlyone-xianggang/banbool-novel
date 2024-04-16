@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o=require("../../utils/utils.js"),n={setup(){const n=e.ref(null);return e.onMounted((()=>{e.nextTick$1((()=>{console.log("ooo",n.value)})),o.getNodeMsg(".myElement").then((e=>{console.log("0000000000-====",e)}))})),{myElement:n}}};const t=e._export_sfc(n,[["render",function(e,o,n,t,r,s){return{}}]]);wx.createPage(t);

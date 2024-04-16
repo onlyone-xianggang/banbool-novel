@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/hom/hom",
+    "pages/foot-print/foot-print",
+    "pages/book-city/book-city",
+    "pages/classifiction/classifiction",
+    "pages/my/my",
+    "pages/serch/serch",
+    "pages/serch/hand-movement-serch-list/hand-movement-serch-list",
+    "pages/serch/serch-top-billbooard-and-distory-serch/serch-top-billboard-and-distory-serch",
+    "pages/hom/bookshlef/bookshlef",
+    "pages/hom/recommend/recommend",
+    "pages/book-city/book-city-is/book-city-is",
+    "pages/book-city/short-story/short-story",
+    "pages/detailslist/detailslist",
+    "pages/book-details/book-details",
+    "pages/read-book/read-book",
+    "pages/read-book/contents-page/contents-page"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/hom/hom",
+        "text": "首页",
+        "iconPath": "static/hom/hom.png",
+        "selectedIconPath": "static/hom/hom1.png"
+      },
+      {
+        "pagePath": "pages/foot-print/foot-print",
+        "text": "足迹",
+        "iconPath": "static/footprint/foot-parint.png",
+        "selectedIconPath": "static/footprint/foot-parint1.png"
+      },
+      {
+        "pagePath": "pages/book-city/book-city",
+        "text": "书城",
+        "iconPath": "static/book-city/bookshlef.png",
+        "selectedIconPath": "static/book-city/bookshlef1.png"
+      },
+      {
+        "pagePath": "pages/classifiction/classifiction",
+        "text": "分类",
+        "iconPath": "static/classifiction/class.png",
+        "selectedIconPath": "static/classifiction/class1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/my/me.png",
+        "selectedIconPath": "static/my/me1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

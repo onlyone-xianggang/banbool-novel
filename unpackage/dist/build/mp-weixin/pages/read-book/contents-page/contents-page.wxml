@@ -1,0 +1,1 @@
+<view class="contents-page data-v-bf7375f3" ref="contentsPageHeight" style="{{'background:' + b}}" bindtap="{{c}}"><view wx:for="{{a}}" wx:for-item="item" wx:key="b" class="contents-page-contents data-v-bf7375f3">{{item.a}}。 </view></view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我宠幸过的书",
+  "usingComponents": {
+    "br-line": "../../components/bar"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="br data-v-788a4eb0" style="{{'display:' + d}}"><view wx:if="{{a}}" class="br-line data-v-788a4eb0"></view><view class="br-title data-v-788a4eb0">{{b}}</view><view wx:if="{{c}}" class="br-line data-v-788a4eb0"></view></view>

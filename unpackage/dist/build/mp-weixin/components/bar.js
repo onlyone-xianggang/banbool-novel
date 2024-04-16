@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),t={__name:"bar",props:{title:{type:String,default:"请输入标题"},isLine:{type:Boolean,default:!1}},setup:t=>(i,n)=>e.e({a:t.isLine},(t.isLine,{}),{b:e.t(t.title),c:t.isLine},(t.isLine,{}),{d:t.isLine?"flex":"block"})},i=e._export_sfc(t,[["__scopeId","data-v-10f0f754"]]);wx.createComponent(i);
